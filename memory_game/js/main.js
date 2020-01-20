@@ -1,9 +1,18 @@
 main.js
 console.log("Up and running!");
 
-let cardOne = "queen";
-let cardTwo = "king";
-let cardThree = "queen";
-let cardFour = "king";
+
 
 console.log("User flipped " + cardOne);
+
+var cards = ["queen", "queen", "king", "king"];
+var cardsInPlay = [];
+
+let cardOne = [0];
+
+cardsInPlay,push(cardOne);
+console.log("User flipped " + cardOne);
+
+let cardTwo = [2];
+cardsInPlay.push(cardTwo);
+console.log("User flipped " + cardTwo);
